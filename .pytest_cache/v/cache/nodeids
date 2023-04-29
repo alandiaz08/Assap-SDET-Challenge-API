@@ -1,0 +1,17 @@
+[
+  "test_todo_api.py::test_user_login",
+  "test_todo_api.py::test_user_logout",
+  "test_todo_api.py::test_user_registration",
+  "tests/test_auth.py::TestDemoAuthentication::test_get_full_inventory",
+  "tests/test_auth.py::TestDemoAuthentication::test_user_login",
+  "tests/test_auth.py::TestDemoAuthentication::test_user_logout",
+  "tests/test_auth.py::TestDemoAuthentication::test_user_registration",
+  "tests/test_products.py::TestDemoProducts::test_add_product_to_cart",
+  "tests/test_products.py::TestDemoProducts::test_checkout_cart",
+  "tests/test_products.py::TestDemoProducts::test_get_cart_info",
+  "tests/test_products.py::TestDemoProducts::test_remove_product_from_cart",
+  "tests/test_products.py::test_add_product_to_cart",
+  "tests/test_products.py::test_checkout_cart",
+  "tests/test_products.py::test_get_cart_info",
+  "tests/test_products.py::test_remove_product_from_cart"
+]
