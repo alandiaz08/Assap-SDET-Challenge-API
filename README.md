@@ -3,6 +3,7 @@
 <p align="center">
   <img src="images/logo.PNG" width="400" height="250"/>
 </p>
+
 ## Description
 
 Asapp-Lead-SDET-Challenge-API was developed using Python, Pytest and Request library.
