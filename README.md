@@ -32,6 +32,30 @@ pip install requests
 
 ## Automated tests
 
+### Run Docker
+
+Precondition: you need to have downloaded the "ASAPP - QA Automation Challenge" docker image.
+
+```bash
+# Build the Images for API and UI:
+
+docker build ./src/api -t asapp-qa-challenge-api
+
+docker build ./src/ui -t asapp-qa-challenge-ui
+
+# Start them through docker-compose:
+
+docker-compose up -d
+
+Browse to localhost:3000 to access the challenge UI.
+
+Browse to localhost:5000/api/docs/ for the API spec.
+
+Command above will run the containers in background, but you can always follow logs with docker-compose logs -f.
+
+To stop containers you can run docker-compose stop.
+```
+
 __To run a test, you can simply write the following command on Terminal__:
 ```sh
 pytest
